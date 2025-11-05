@@ -62,10 +62,10 @@ if(isset($_GET['status'])){
 									</div>
                                     <form action="proses/proses-departemen.php?aksi=updatedepartemen" method="POST">
 									    <div class="card-body">
-                                            <input type="hidden" name="id" value="<?php echo $dataDepartemen['id']; ?>">
+                                            <input type="hidden" name="id_departemen" value="<?php echo $dataDepartemen['id']; ?>">
 											<div class="mb-3">
 												<label for="nama" class="form-label">Nama Departemen</label>
-												<input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan Nama Departemen" value="<?php echo $dataDepartemen['nama']; ?>" required>
+												<input type="text" class="form-control" id="nama" name="nama_departemen" placeholder="Masukkan Nama Departemen" value="<?php echo $dataDepartemen['nama']; ?>" required>
 											</div>
                                         </div>
 									    <div class="card-footer">
